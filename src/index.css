@@ -6,8 +6,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header li:last-child{
+  transform: translateY(-9%);
+}
+.card_count{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  top: 26%;
+  right: 11%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ff6161;
+  color: white;
+}
+.qut_btn{
+  padding: 0.5rem 1rem;
+  border: none;
+  text-align: center;
+  border-radius: 6px;
 }
